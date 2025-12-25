@@ -38,23 +38,5 @@
       "destination": "/api/docs",
       "permanent": true
     }
-  ],
-  "crons": [
-    {
-      "path": "/api/v3/physique/health",
-      "schedule": "0 */6 * * *"
-    },
-    {
-      "path": "/api/v3/persona/health",
-      "schedule": "0 */6 * * *"
-    },
-    {
-      "path": "/api/v3/agency/health",
-      "schedule": "0 */6 * * *"
-    },
-    {
-      "path": "/api/v3/security/health",
-      "schedule": "0 */6 * * *"
-    }
   ]
 }
