@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "installCommand": "cd web && npm ci --legacy-peer-deps",
+  "buildCommand": "cd web && npm run build"
 }
