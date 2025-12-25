@@ -4,18 +4,9 @@
   "devCommand": "cd web && npm run dev",
   "installCommand": "npm install",
   "env": {
-    "NEXT_PUBLIC_API_URL": {
-      "required": true,
-      "description": "Backend API URL (e.g., https://api.yourdomain.com or http://localhost:8000)"
-    },
-    "NEXT_PUBLIC_APP_VERSION": {
-      "default": "3.0.0",
-      "description": "Application version"
-    },
-    "NEXT_PUBLIC_APP_NAME": {
-      "default": "AuraStudio Omni",
-      "description": "Application name"
-    }
+    "NEXT_PUBLIC_API_URL": "https://api.avatarverse.ai",
+    "NEXT_PUBLIC_APP_VERSION": "3.0.0",
+    "NEXT_PUBLIC_APP_NAME": "AuraStudio Omni"
   },
   "regions": ["iad1", "sfo1", "cdg1"],
   "headers": [
