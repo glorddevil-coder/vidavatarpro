@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Next.js
+web/.next/
+web/out/
+web/.vercel/
+web/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Audio files (large)
+*.wav
+*.mp3
+*.aac
+*.flac
+
+# Video files (large)
+*.mp4
+*.mov
+*.mkv
+
+# 3D model files (large)
+*.fbx
+*.glb
+*.gltf
+
+# Coverage reports
+coverage/
+htmlcov/
