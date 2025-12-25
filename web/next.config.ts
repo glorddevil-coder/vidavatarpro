@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    turbopack: {
-      root: ".",
-    },
   /* React Compiler for optimizations */
   reactCompiler: true,
 
