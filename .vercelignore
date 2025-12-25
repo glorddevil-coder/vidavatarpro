@@ -1,0 +1,13 @@
+api/
+db/
+tests/
+docs/
+config/
+.github/
+*.md
+pytest.ini
+setup.py
+dev-start.ps1
+dev-start.sh
+docker-compose.yml
+pnpm-workspace.yaml
