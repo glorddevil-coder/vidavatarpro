@@ -1,5 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "cd web && npm run build",
-  "installCommand": "cd web && npm install --legacy-peer-deps"
+  "builds": [
+    {
+      "src": "web/package.json",
+      "use": "@vercel/next"
+    }
+  ]
 }
